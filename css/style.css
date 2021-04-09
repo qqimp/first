@@ -1,0 +1,31 @@
+.container {
+  /* background: rgba(9, 185, 23, 0.451); */
+  width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  /* background-image: url(../images/back.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  background-position: center;
+}
+section {
+    padding: 100px 0px;
+}
+.header {
+    position: fixed;
+    background: white;
+    border-bottom: 1px solid green;
+}
+.naw-list {
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+}
+
+.naw-list a {
+    color: black;
+    text-transform: capitalize;
+}
